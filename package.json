@@ -1,0 +1,40 @@
+{
+  "name": "trailpack-treefrog",
+  "version": "1.0.0-alpha-1",
+  "description": "Structured frontends in Angular 2 or React for Trailsjs apps",
+  "homepage": "",
+  "author": {
+    "name": "Scott Wyatt",
+    "email": "scottwyatt86@gmail.com",
+    "url": "https://cali-style.com"
+  },
+  "main": "index.js",
+  "keywords": [
+    "treefrog",
+    "trailpack",
+    "trails",
+    "trailjs",
+    "angular 2",
+    "react"
+  ],
+  "dependencies": {
+    "trailpack": "latest"
+  },
+  "devDependencies": {
+    "eslint": "^2.0.0-beta.1",
+    "eslint-config-trails": "^1.0.1",
+    "mocha": "^2.3",
+    "semantic-release": "4.3.5"
+  },
+  "scripts": {
+    "test": "eslint . && mocha"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "eslintConfig": {
+    "extends": "trails"
+  },
+  "repository": "CaliStyle/trailpack-treefrog",
+  "license": "MIT"
+}
