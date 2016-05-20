@@ -10,7 +10,14 @@ Structured frontends in Angular 2 or React for Trailsjs Apps
 ## Install
 
 ```sh
+// Install the Trailpack
 $ npm install --save trailpack-treefrog
+
+//Install the Generator
+$ npm install generator-treefrog -g
+
+//Setup the frontend
+$ yo treefrog
 ```
 
 ## Configure
