@@ -5,7 +5,10 @@
 [![Dependency Status][daviddm-image]][daviddm-url]
 [![Code Climate][codeclimate-image]][codeclimate-url]
 
-Structured frontends in Angular 2 or React for Trailsjs Apps
+Structured frontends in React or Angular 2 for Trailsjs Apps.
+
+The beauty of Javascript is the ability to build isomorphic apps.
+Treefrog is developed around that concept.  
 
 ## Install
 
