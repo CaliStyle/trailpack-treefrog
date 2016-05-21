@@ -1,0 +1,27 @@
+language: node_js
+node_js:
+- 4
+- 5
+- 6
+
+os:
+- linux
+- osx
+
+notifications:
+  email: false
+  #webhooks:
+   # urls:
+    #- https://webhooks.gitter.im/e/54f8a1e753f859f5ca1a
+    #on_start: never
+    #on_failure: change
+
+#deploy:
+  #provider: npm
+  #email: hello@trailsjs.io
+  #api_key:
+    #secure: NMG8p9oP1LZ+X+zIhrCev9eV2zphfVUZS46UvvHHsTJCbzDQUS1JwrHH7zAe+VMgIX+ok+SDte0qnGDhoR61nMK4rbNrPKc3qPYKSxWi9OJ4bUQCzrqpx5j3WIwf7cfV10izs83qluK8C+j9uJ3XD+Gl7hnsuL2sZ+Yf0EddaVV0CDDQ1MKUUwbV02UY0LOlH1C69rLhWNpIkAFqqIJG4KryKm2+FTpNW/RAA4HJuBiUejp0FdIR/KPxVXERJXkS6x/vjDAUFouqch5lKrrUWH1UZ9AKGZebVr0AzOs2nVYjxuJfVziqreIRGX/nnXld4hudNfIL4EjKxoyA86qVMuSmA3JfXdCx5IXXEA6FENMLSv+jnK8V3hIAN+gHN1C/qX6esecopWtKPYOatb790WlGEEOCV/ImuagBXHe6qL5MYkU7aHVaaFDwVFuCTDw2Lc+UA2KyJNkYmtryU3s7x16C165MWfNAGYagL1jT6rlnfzXKcGfGl0YJjaEqbGW4y/wVbBodXVn64DCed53IvOJYZcfC0CL4AVU0vVQAaIXpp5z1tVUHuEa14SjEH/IHb95NRUz41rEKqM0Uh61PBoo2dv8BvgRGhB+Wh1wG1Fh/fUjj3Tweqd5oIDAU+A8g2glWSNROen97Bg+DYKeW8mfo8uJCWvP3cS4qXQo36Hg=
+  #on:
+    #tags: true
+    #repo: CaliStyle/generator-treefrog
+    #node: 5
