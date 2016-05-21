@@ -15,7 +15,9 @@
     "trails",
     "trailjs",
     "angular 2",
-    "react"
+    "react",
+    "foundation",
+    "bootstrap"
   ],
   "dependencies": {
     "trailpack": "latest"
