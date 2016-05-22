@@ -8,7 +8,14 @@
 Structured frontends in React or Angular 2 for Trailsjs Apps.
 
 The beauty of Javascript is the ability to build isomorphic apps.
-Treefrog is developed around that concept.  
+Treefrog is focused on that concept.  
+
+##Isomorphic Apps
+For a great explanation of what an Isomorphic app is, 
+check out <https://www.lullabot.com/articles/what-is-an-isomorphic-application>.
+Why Isopmorphic apps? If your app has a frontend, then you can save time by reusing code.
+On top of that, Search Engine Optimzation and Mobile Optimzation aren't going away and 
+Isomorphic apps benefit from the speed boost of having an app fully rendered on demand.
 
 ## Status
 
