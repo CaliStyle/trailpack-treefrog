@@ -10,6 +10,10 @@ Structured frontends in React or Angular 2 for Trailsjs Apps.
 The beauty of Javascript is the ability to build isomorphic apps.
 Treefrog is developed around that concept.  
 
+## Status
+
+> ##### Stability: [1](http://nodejs.org/api/documentation.html#documentation_stability_index) - Experimental
+
 ## Install
 
 ```sh
