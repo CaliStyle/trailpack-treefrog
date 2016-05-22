@@ -10,6 +10,8 @@ Structured frontends in React or Angular 2 for Trailsjs Apps.
 The beauty of Javascript is the ability to build isomorphic apps.
 Treefrog is focused on that concept.  
 
+Looking for the generator?  Checkout <https://github.com/CaliStyle/trailpack-treefrog.
+
 ##Isomorphic Apps
 For a great explanation of what an Isomorphic app is, 
 check out <https://www.lullabot.com/articles/what-is-an-isomorphic-application>.
