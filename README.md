@@ -5,16 +5,19 @@
 [![Dependency Status][daviddm-image]][daviddm-url]
 [![Code Climate][codeclimate-image]][codeclimate-url]
 
-Structured frontends in React or Angular 2 for Trailsjs Apps.
+Structured frontends in Angular2, React, or whatever for Trailsjs Apps.
 
 The beauty of Javascript is the ability to build isomorphic apps.
 Treefrog is focused on that concept.  
 
-Looking for the generator?  Checkout <https://github.com/CaliStyle/trailpack-treefrog.
+Looking for the Style Library? Checkout <https://github.com/CaliStyle/treefrog>
+
+Looking for the generator?  Checkout <https://github.com/CaliStyle/trailpack-treefrog>.
 
 ##Isomorphic Apps
 For a great explanation of what an Isomorphic app is, 
 check out <https://www.lullabot.com/articles/what-is-an-isomorphic-application>.
+
 Why Isopmorphic apps? If your app has a frontend, then you can save time by reusing code.
 On top of that, Search Engine Optimzation and Mobile Optimzation aren't going away and 
 Isomorphic apps benefit from the speed boost of having an app fully rendered on demand.
@@ -40,10 +43,11 @@ $ yo treefrog
 ```
 
 ## Configure
-Running `yo treefrog` will prompt you to configure your app.
+Running `yo treefrog` will prompt you to configure your app like a normal Trails App with some added sugar.
 It will add `trailpack-treefrog` to your `config/main.js`,
 `exports.treefrog = require('./treefrog')` to your `config/index.js`,
-and create/configure `config/treefrog.js`. (Treefrog does not have an `archetype/confg`)
+and create/configure `config/treefrog.js`.
+The Generator will also use your configuration to build an archetype and install your packages automatically.
 
 ```js
 // The result of running `yo treefrog`
