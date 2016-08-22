@@ -1,4 +1,5 @@
 # treefrog
+[![Treefrog][treefrog-image]][treefrog-url]
 
 [![NPM version][npm-image]][npm-url]
 [![Build status][ci-image]][ci-url]
@@ -62,6 +63,8 @@ module.exports = {
 
 This process allows yo to run the generator subsequently with your saved preferences.
 
+[treefrog-image]: http://i.imgur.com/1IiVqTo.png
+[treefrog-url]: http://treefrog.io
 [npm-image]: https://img.shields.io/npm/v/treefrog.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/trailpack-treefrog
 [ci-image]: https://img.shields.io/travis/CaliStyle/trailpack-treefrog/master.svg?style=flat-square
