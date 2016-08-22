@@ -1,4 +1,4 @@
-# treefrog
+# trailpack-treefrog
 [![Treefrog][treefrog-image]][treefrog-url]
 
 [![NPM version][npm-image]][npm-url]
