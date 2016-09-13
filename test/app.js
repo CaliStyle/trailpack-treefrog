@@ -1,12 +1,12 @@
-
 'use strict'
 
 const _ = require('lodash')
 const smokesignals = require('smokesignals')
 
-module.exports = _.defaultsDeep({
+const App = {
   pkg: {
-    name: 'jsdata-trailpack-test'
+    name: 'treefrog-trailpack-test',
+    version: '1.0.0'
   },
   config: {
     main: {
@@ -25,4 +25,7 @@ module.exports = _.defaultsDeep({
       outDir: 'dist'
     }
   }
-}, smokesignals.FailsafeConfig)
+})
+_.defaultsDeep(App, smokesignals.FailsafeConfig)
+
+module.exports = App

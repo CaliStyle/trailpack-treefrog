@@ -8,6 +8,12 @@
     "email": "scottwyatt86@gmail.com",
     "url": "https://cali-style.com"
   },
+  "contributors": [
+    {
+      "name": "Jimmy Aumard",
+      "url": "https://github.com/jaumard"
+    }
+  ],
   "main": "index.js",
   "keywords": [
     "treefrog",
@@ -20,15 +26,17 @@
     "bootstrap"
   ],
   "dependencies": {
-    "trailpack": "latest"
+    "lodash": "^4.13.1",
+    "trailpack": "^1.0.4"
   },
   "devDependencies": {
-    "eslint": "^2.0.0-beta.1",
-    "eslint-config-trails": "^1.0.1",
-    "mocha": "^2.3",
-    "semantic-release": "4.3.5",
+    "eslint": "^3.0.0",
+    "eslint-config-trails": "^1.0.7",
+    "mocha": "^3.0.0",
+    "semantic-release": "^4.3.5",
     "smokesignals": "^1.2.2",
     "trailpack-core": "^1.0.0",
+    "trailpack-router": "^1.0.4",
     "trails": "^1.0.4"
   },
   "scripts": {

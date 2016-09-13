@@ -1,4 +1,3 @@
-'use strict'
 /* eslint no-console: [0, { allow: ["log","warn", "error"] }] */
 'use strict'
 
@@ -26,11 +25,11 @@ module.exports = class TreefrogTrailpack extends Trailpack {
 
   /**
    * Configure Treefrog
+   *
+   * Should configure angular/react routes from trails routes
    */
   configure () {
-    // this.app.log.info('Treefrog is configured')
-    return Promise.resolve()
-
+    this.routes = lib.Utils.buildRoutes(this.app)
   }
 
   /**
