@@ -25,9 +25,9 @@ $ yo treefrog
 
 ## Configure
 Running `yo treefrog` will prompt you to configure your app.
-It will add the `trailpack-treefrog` to your `config/main.js`,
 `exports.treefrog = require('./treefrog')` to your `config/index.js`,
-and create `config/treefrog.js`.
+and create `config/treefrog.js`.  You will how ever need to add the 
+to following to your `config/main.js`.
 
 ```js
 // config/main.js
@@ -35,7 +35,12 @@ module.exports = {
   packs: [
     // ... other trailpacks
     require('trailpack-treefrog')
-  ]
+  ],
+
+  paths: {
+  	// ... other paths
+
+  }
 }
 ```
 

@@ -14,17 +14,22 @@ module.exports = {
        * List of events that must be fired before the configure lifecycle
        * method is invoked on this Trailpack
        */
-      listen: [ ],
+      listen: [
+
+      ],
 
       /**
        * List of events emitted by the configure lifecycle method
        */
-      emit: [ ]
+      emit: [
+        // 'trailpack:treefrog:createdroutes'
+      ]
     },
     initialize: {
-      listen: [ ],
+      listen: [
+        'trailpack:router:initialized'
+      ],
       emit: [ ]
     }
   }
 }
-

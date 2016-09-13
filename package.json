@@ -26,7 +26,10 @@
     "eslint": "^2.0.0-beta.1",
     "eslint-config-trails": "^1.0.1",
     "mocha": "^2.3",
-    "semantic-release": "4.3.5"
+    "semantic-release": "4.3.5",
+    "smokesignals": "^1.2.2",
+    "trailpack-core": "^1.0.0",
+    "trails": "^1.0.4"
   },
   "scripts": {
     "test": "eslint . && mocha"
