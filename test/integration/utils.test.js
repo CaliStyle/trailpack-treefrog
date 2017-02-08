@@ -8,7 +8,6 @@ describe('Utils', () => {
     it('should set app.routes', () => {
       const routes = global.app.routes
       assert(routes)
-
     })
   })
 })

@@ -29,7 +29,7 @@ module.exports = class TreefrogTrailpack extends Trailpack {
    * Should configure angular/react routes from trails routes
    */
   configure () {
-    this.routes = lib.Utils.buildRoutes(this.app)
+    return Promise.resolve()
   }
 
   /**
@@ -37,16 +37,17 @@ module.exports = class TreefrogTrailpack extends Trailpack {
    */
   initialize () {
     // this.app.log.info('Treefrog is initialized')
-
-    switch(this.app.config.treefrog.frontend) {
-      case 'angular':
-        lib.Utils.Angular.buildBrowserRoutes(this.app)
-        .then(rotues => {
-          return Promise.resolve()
-        })
-      default:
-        return Promise.resolve()
-    }
+    // We don't need to write angular config because it can be dyn
+    // switch(this.app.config.treefrog.frontend) {
+    //   case 'angular':
+    //     lib.Utils.Angular.buildRoutes(this.app)
+    //     .then(rotues => {
+    //       return Promise.resolve()
+    //     })
+    //   default:
+    //     return Promise.resolve()
+    // }
+    return Promise.resolve()
   }
 
   /**

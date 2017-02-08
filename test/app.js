@@ -11,8 +11,6 @@ const App = {
   config: {
     main: {
       packs: [
-        smokesignals.Trailpack,
-        require('trailpack-core'),
         require('../') // trailpack-treefrog
       ]
     },
@@ -25,7 +23,7 @@ const App = {
       outDir: 'dist'
     }
   }
-})
+}
 _.defaultsDeep(App, smokesignals.FailsafeConfig)
 
 module.exports = App
